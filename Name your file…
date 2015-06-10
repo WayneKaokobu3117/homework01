@@ -1,37 +1,24 @@
 Enter file contents here/** 
 
- 3
  * Module dependencies. 
 
- 4
  */ 
-
- 5
-
  
 
- 6
 var views = require('co-views'); 
 
- 7
 
- 
 
- 8
 // setup views mapping .html 
 
- 9
 // to the swig template engine 
 
- 10
 
  
-
- 11
 module.exports = views(__dirname + '/../views', { 
 
- 12
+ 
   map: { html: 'swig' } 
 
- 13
+ 
 }); 
